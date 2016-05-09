@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_margin="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/console_image"
+            android:layout_width="110dp"
+            android:layout_height="80dp"/>
+        <TextView
+            android:id="@+id/name_text"
+            android:textSize="24sp"
+            android:text="Console"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@id/console_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/company_name"
+            android:text="Company"
+            android:layout_toRightOf="@id/console_image"
+            android:layout_below="@id/name_text"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
